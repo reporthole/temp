@@ -1,0 +1,50 @@
+# Site settings
+title: 闫肃的博客疫情疫苗问题全局情报搜集系统
+email: ***
+description: > # this means to ignore newlines until "baseurl:"
+  疫情疫苗问题全局情报搜集系统、世界UFO百年历史与研究整理、阴谋论术语如何被CIA塑造成压制大众怀疑的口头机制、情报部门与其媒体资产、哈佛教授呼吁政府渗透阴谋论团体破坏其声誉、专家们潜意识助推知识过滤
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: *** # the base hostname & protocol for your site
+rss_url: /pages/feed.xml
+author: 按辔
+
+# Sidebar filter
+# Choose 'tag' or 'category' as filter in sidebar.
+filter: 'category'
+recent_num: 20
+
+# Social account
+twitter: ***
+weibo: ***
+github: ***
+instagram: ***
+linkedin: ***
+
+# avatar and Favicon
+avatar: http://imgs.yansu.org/site-avatar.png
+favicon: http://imgs.yansu.org/site-favicon.ico
+
+# disqus config
+# disqus:
+#  shortname: suyan-zh
+
+# google analytics config
+# ga:
+#  id: UA-54767140-1
+#  url: yansu.org
+
+# Build settings
+permalink: /:year/:month/:day/:title.html
+markdown: kramdown
+highlighter: rouge
+mathjax: disabled
+sass:
+  style: compressed
+
+# Jekyll Plugin
+# https://help.github.com/articles/adding-jekyll-plugins-to-a-github-pages-site/
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+
